@@ -33,6 +33,5 @@ setappdata(gcf,'robotInitial',robot);
 setappdata(gcf,'mapInitial',map);
 g_0=uicontrol('style','pushbutton','Position',[5 85 30 30],'String','ПЊ','Callback',@manualMode);
 g_1=uicontrol('style','pushbutton','Position',[5 45 30 30],'String','Бе','Callback',@autoMode);
-
 % collide=judgeCollide(robot,map);
 
